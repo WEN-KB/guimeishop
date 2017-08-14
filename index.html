@@ -4,10 +4,44 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link type="text/css" rel="stylesheet" href="css/Untitled-2.css" />
 <title>主页</title>
+    <style type="text/css">
+        #time{
+            width: 200px;
+            height: 20px;
+            position: absolute;
+            left:1200px;
+            top: 70px;
+            border: 1px solid red;
+        }
+    </style>
+    <script>
+
+
+        window.onload=function(){
+            var dom =document.getElementById("time");
+            var year,month,day,hours,minute,second;
+            function clock(){
+                var today=new Date();
+                year=today.getFullYear();
+                month=today.getMonth()+1;
+                day=today.getDay();
+                hours=today.getHours();
+                minute=today.getMinutes();
+                second=today.getSeconds();
+            }
+            setInterval(
+                    function(){
+                        clock();
+                        dom.innerHTML="您好，现在是北京时间"+year+"年"+month+"月"+day+"日"+hours+"时"+minute+"分"+second;
+                    },1000)
+        }
+
+    </script>
 </head>
 
 <body>
   <div id="head">
+      <div id="time"></div>
     <div id="subnav">
         <ul>
       <li class="pic" id="pic"></li>
