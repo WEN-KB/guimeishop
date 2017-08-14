@@ -1,0 +1,125 @@
+@charset "utf-8";
+/* CSS Document */
+
+ *{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body{
+             font-size: 12px;
+        }
+        .all{
+            width: 980px;
+            margin: 0 auto;
+        }
+		/*头部*/
+        .header{
+            width:980px ;height: 150px;
+            background-image: url("../images/h_bg.jpg");
+            background-position: -21px 0px;
+        }
+		
+		
+		
+        .nav1{
+            width: 470px;height: 40px;float: right;font-size:15px ;
+            padding-top:5px;
+        }
+        .nav1 li{
+            padding-top:10px;padding-left: 13px;
+        }
+        .nav2{
+           width: 980px;height: 30px;padding-top:30px;
+        }
+        .nav2 li{
+            padding-left: 25px;
+            text-decoration: none;
+
+        }
+		/*中间*/
+        .con{
+            width: 980px;
+            height: 650px;
+
+            background-image: url("../images/bg.gif");
+        }
+		/*中间left*/
+        .left{
+            width: 200px;height: 648px;float: left;
+        }
+        .left1{
+            width: 200px;height: 148px;margin-top:40px;
+        }
+        .left2{
+            width: 200px;height: 147px;
+        }
+        .left3{
+            width: 200px;height: 150px;
+        }
+        .left4{
+            width: 200px;height: 150px;
+        }
+        .middle{
+            width: 520px;height: 648px;float: left;margin-left: 12px;
+
+        }
+        .right{
+            width: 230px;height: 648px;float: left;margin-left: 12px;
+        }
+        .righttop{
+            width: 230px;height: 250px;margin-top:180px;
+        }
+        .middletop{
+            width: 520px;height: 190px;float: left;background-image: url("../images/ad-01.jpg");
+        }
+        .middlebot{
+            width: 520px;height: 420px;float: left;margin-top:35px;text-align: center;
+        }
+        .middlebot-{
+            width: 160px;height: 420px;float: left;margin-top: 5px;margin-left: 12px;
+        }
+        .frid{
+            width: 980px;height:20px;text-align: center;
+        }
+        .ul1 li{
+            display: inline;border-left: 1px solid black;padding-left: 5px;
+
+        }
+        .footer{
+            width: 980px;
+            text-align: center;
+        }
+        li{
+            display: inline;
+        }
+        .nav2 li:hover{
+            color:mediumorchid;
+
+        }
+        .nav2 li:active{
+            font-size: 18px;color: crimson;
+        }
+        .nav2 li:visited{
+            color: chocolate;
+        }
+        a{
+            text-decoration:none;
+        }
+        header{
+            font-size: 16px;
+            font-weight: bold;
+            color: darkorange;
+        }
+        table{
+            width:200px;height:120px
+        }
+        dl{
+            display: inline;
+        }
+        .img{
+            width:60px;  height:45px;  vertical-align: middle;border:1px solid black;
+        }
+        .d{
+            padding-left: 10px;
+        }
