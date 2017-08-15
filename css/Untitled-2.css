@@ -1,4 +1,4 @@
-@charset "utf-8";
+﻿@charset "utf-8";
 
 /* CSS Document */
 *{
@@ -12,7 +12,15 @@
 a{
 	text-decoration:none;
 	
-	}		
+	}
+ #time{
+            width: 200px;
+            height: 20px;
+            position: absolute;
+            left:1200px;
+            top: 70px;
+            border: 1px solid red;
+        }		
 #head{
 	width:1024px;
 	 height:150px;
